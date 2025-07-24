@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details | Creative Developer</title>
+  <link rel="icon" type="image/png" href="assets/img/Favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="icon" aria-label="Home">
+      <a href="index.html">
+        <img src="assets/img/logo.png" alt="Logo" class="logo-img" />
+      </a>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#hero">Home</a></li>
+      <li><a href="index.html#projects">Work</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="https://github.com/" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .26.18.57.69.47A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z" fill="#fff"/></svg>
+      </a>
+      <a href="https://linkedin.com/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z" fill="#fff"/></svg>
+      </a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <main class="project-detail">
+    <div class="project-container">
+      <div class="project-header">
+        <a href="index.html#projects" class="back-btn">
+          <span role="img" aria-label="Back">←</span> Back to Projects
+        </a>
+        <div class="project-meta">
+          <span class="project-category" id="project-category"></span>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <div class="project-media-col">
+          <div id="project-video-container"></div>
+          <div class="project-slider">
+            <div class="slider-container">
+              <div class="slider-track" id="slider-track">
+                <!-- Slides will be populated by JavaScript -->
+              </div>
+              <button class="slider-arrow slider-prev" id="slider-prev" aria-label="Previous slide">             <span>‹</span>
+              </button>
+              <button class="slider-arrow slider-next" id="slider-next" aria-label="Next slide">             <span>›</span>
+              </button>
+            </div>
+            <div class="slider-dots" id="slider-dots">
+              <!-- Dots will be populated by JavaScript -->
+            </div>
+          </div>
+        </div>
+        <div class="project-info-col">
+          <div class="project-info">
+            <h1 id="project-title"></h1>
+            <a href="#" id="live-link" class="project-link" target="_blank" rel="noopener" style="margin-bottom:1.5rem;display:inline-block;">
+              <span role="img" aria-label="Live">🌐</span> View Live
+            </a>
+            <p id="project-description" class="project-description"></p>
+            <!-- Audio player for music projects (moved here) -->
+            <div class="audio-section" id="audio-section" style="display: none;">
+              <h3>Listen</h3>
+              <div class="audio-player">
+                <button class="play-btn-large" id="play-btn-large" aria-label="Play music" type="button">
+                  <span class="play-icon-large"></span>
+                  <span class="pause-icon-large"></span>
+                </button>
+                <div class="music-progress-bar-large" id="progress-bar-large" tabindex="0" aria-label="Audio progress">
+                  <div class="music-progress-fill-large" id="progress-fill-large" style="width:0%"></div>
+                </div>
+                <audio id="audio-large" src=""></audio>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="detail-section">
+                <h3>Technologies</h3>
+                <div class="tech-tags" id="tech-tags"></div>
+              </div>
+              <div class="detail-section">
+                <h3>Features</h3>
+                <ul class="features-list" id="features-list"></ul>
+              </div>
+              <div class="project-links">
+                <a href="#" id="github-link" class="project-link" target="_blank" rel="noopener">
+                  <span role="img" aria-label="GitHub">📁</span> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+
+  <script src="project.js"></script>
+</body>
+</html> 

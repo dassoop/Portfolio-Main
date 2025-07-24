@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Creative Developer</title>
+  <link rel="icon" type="image/png" href="assets/img/Favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="icon" aria-label="Home">
+      <img src="assets/img/logo.png" alt="Logo" class="logo-img" />
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="https://github.com/dassoop" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .26.18.57.69.47A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z" fill="#fff"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/lance-summer/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z" fill="#fff"/></svg>
+      </a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+  <header class="hero" id="hero">
+    <video class="hero-bg" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80">
+      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h1 class="typing" id="typing" style="visibility:hidden"></h1>
+  </header>
+  <main>
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>
+            Hi, I'm a creative developer passionate about building interactive digital experiences and streamlining/automating workflows. I blend design, code, and sound to craft unique projects that inspire and engage.
+          </p>
+          <ul class="about-bullets">
+            <li>Experienced in modern web technologies (HTML, CSS, JavaScript, SPA)</li>
+            <li>Experienced in AI integration for creative and workflow automation projects</li>
+            <li>Skilled in spatial sound design and music production</li>
+            <li>Proficient with Electron and Capacitor for cross-platform app development</li>
+            <li>Strong background in system design and scalable architecture</li>
+            <li>Experienced in game implementation using Unity, Unreal, Wwise, and FMOD</li>
+            <li>Focus on accessibility and user experience</li>
+            <li>Enjoys collaborating on creative, cross-disciplinary teams</li>
+          </ul>
+          <a href="https://drive.google.com/file/d/1c6TVJnnUelHRAqK6bmmLuEzyUZjd0DaM/view?usp=drive_link" target="_blank" rel="noopener" class="cv-download-btn">
+            <span role="img" aria-label="Download">⬇️</span> View/Download CV
+          </a>
+        </div>
+        <div class="about-image">
+          <img src="assets/img/aboutme.png" alt="About portrait" />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>Work</h2>
+      <div class="categories">
+        <button class="category active" data-category="all">⭐ Highlight</button>
+        <button class="category" data-category="apps">Apps</button>
+        <button class="category" data-category="web">Web</button>
+        <button class="category" data-category="sound">Sound Design</button>
+        <button class="category" data-category="music">Music</button>
+      </div>
+      <div class="projects-list" id="projects-list">
+        <!-- Projects will be loaded dynamically from projects.json -->
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <div class="contact-block">
+          <h4><span role="img" aria-label="Email">✉️</span> Email</h4>
+          <p>
+            ssummer.lance@gmail.com
+            <button id="copy-email-btn" class="copy-btn" aria-label="Copy email to clipboard" type="button">Copy</button>
+            <span id="copy-feedback" class="copy-feedback" style="display:none; margin-left:8px; font-size:0.9em; color:green;">Copied!</span>
+          </p>
+        </div>
+        <div class="contact-block">
+          <h4><span role="img" aria-label="Bridge">🌉</span> Location</h4>
+          <p>SF Bay Area</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
