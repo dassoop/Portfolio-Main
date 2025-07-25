@@ -203,7 +203,7 @@
       "title": "Deathwalk",
       "description": "Original orchestral soundtrack composition.",
       "category": "music",
-      "highlight": true,
+      "highlight": false,
       "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fdeathwalk%2Fdeathwalk.jpg",
       "images": [
         "https://bucket.us-sea-1.linodeobjects.com/img%2Fdeathwalk%2Fdeathwalk.jpg"],
@@ -220,7 +220,7 @@
       "title": "Frosty Village",
       "description": "Chill ambient track.",
       "category": "music",
-      "highlight": false,
+      "highlight": true,
       "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Ffrosty-village%2Ffrosty-village.jpg",
       "images": [
         "https://bucket.us-sea-1.linodeobjects.com/img%2Ffrosty-village%2Ffrosty-village.jpg"],
@@ -304,8 +304,26 @@
       "githubUrl": "#"
     },
     {
+      "id": "sr-theme",
+      "title": "Steel Resurrection - Theme",
+      "description": "Intense soundtrack theme for mmorpg game",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fsteel-resurrection%2Fsteel-resurrection.jpg",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fsteel-resurrection%2Fsteel-resurrection.jpg"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fsr-theme.mp3",
+      "fullDescription": "Intense soundtrack theme for mmorpg game",
+      "technologies": ["Logic Pro X"],
+      "features": ["Lo-fi aesthetic", "Study-friendly", "Vinyl warmth", "Smooth transitions"],
+      "liveUrl": "#",
+      "githubUrl": "#" 
+    },
+    {
       "id": "sr-battle-1",
-      "title": "Steel Resurrection Battle-1",
+      "title": "Steel Resurrection - Battle 1",
       "description": "Intense soundtrack theme for mmorpg game",
       "category": "music",
       "highlight": false,
@@ -322,8 +340,26 @@
       "githubUrl": "#"
     },
     {
+      "id": "sr-battle-2",
+      "title": "Steel Resurrection - Battle 2",
+      "description": "Intense soundtrack theme for mmorpg game",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fsteel-resurrection%2Fsteel-resurrection.jpg",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fsteel-resurrection%2Fsteel-resurrection.jpg"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fsr-battle-2.mp3",
+      "fullDescription": "Intense soundtrack theme for mmorpg game",
+      "technologies": ["Logic Pro X"],
+      "features": ["Lo-fi aesthetic", "Study-friendly", "Vinyl warmth", "Smooth transitions"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
       "id": "sr-menu-1",
-      "title": "Steel Resurrection Menu-1",
+      "title": "Steel Resurrection - Menu 1",
       "description": "Electronic soundtrack theme for mmorpg game",
       "category": "music",
       "highlight": false,
@@ -336,6 +372,114 @@
       "fullDescription": "Electronic soundtrack theme for mmorpg game",
       "technologies": ["Logic Pro X"],
       "features": ["Lo-fi aesthetic", "Study-friendly", "Vinyl warmth", "Smooth transitions"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "sr-menu-2",
+      "title": "Steel Resurrection - Menu 2",
+      "description": "Electronic soundtrack theme for mmorpg game",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fsteel-resurrection%2Fmenu-1.jpg",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fsteel-resurrection%2Fmenu-1.jpg"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fsr-menu-2.mp3",
+      "fullDescription": "Electronic soundtrack theme for mmorpg game",
+      "technologies": ["Logic Pro X"],
+      "features": ["Lo-fi aesthetic", "Study-friendly", "Vinyl warmth", "Smooth transitions"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "ttr-1",
+      "title": "Ticket To Ride - Theme",
+      "description": "Soundtrack for licensed digital rendition of popular board game.",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fttr-1-theme.wav",
+      "fullDescription": "Soundtrack for licensed digital rendition of popular board game.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Board game adaptation soundtrack", "Original compositions", "Thematic variations"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "ttr-2",
+      "title": "Ticket To Ride - Accordian",
+      "description": "Soundtrack for licensed digital rendition of popular board game.",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fttr-2-accordian.wav",
+      "fullDescription": "Soundtrack for licensed digital rendition of popular board game.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Board game adaptation soundtrack", "Original compositions", "Thematic variations"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "ttr-3",
+      "title": "Ticket To Ride - Acoustic",
+      "description": "Soundtrack for licensed digital rendition of popular board game.",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fttr-3-acoustic.wav",
+      "fullDescription": "Soundtrack for licensed digital rendition of popular board game.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Board game adaptation soundtrack", "Original compositions", "Thematic variations"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "ttr-4",
+      "title": "Ticket To Ride - March",
+      "description": "Soundtrack for licensed digital rendition of popular board game.",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fttr-4-march.wav",
+      "fullDescription": "Soundtrack for licensed digital rendition of popular board game.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Board game adaptation soundtrack", "Original compositions", "Thematic variations"],
+      "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "ttr-5",
+      "title": "Ticket To Ride - Ragtime",
+      "description": "Soundtrack for licensed digital rendition of popular board game.",
+      "category": "music",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fticket-to-ride%2Fticket-to-ride.png"
+      ],
+      "videoUrls": [],
+      "audioUrl": "https://bucket.us-sea-1.linodeobjects.com/portfolio%2Faudio%2Fttr-5-ragtime.wav",
+      "fullDescription": "Soundtrack for licensed digital rendition of popular board game.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Board game adaptation soundtrack", "Original compositions", "Thematic variations"],
       "liveUrl": "#",
       "githubUrl": "#"
     },
