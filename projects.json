@@ -71,6 +71,24 @@
       "githubUrl": "#"
     },
     {
+      "id": "liquid-view",
+      "title": "Liquid View Virtual Windows",
+      "description": "Virtual Windows application for immersive viewing experience.",
+      "category": "sound",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fliquid-view%2Fliquid-view.png",
+      "images": [
+        "https://bucket.us-sea-1.linodeobjects.com/img%2Fliquid-view%2Fliquid-view.png"
+      ],
+      "videoUrls": [],
+      "audioUrl": null,
+      "fullDescription": "Virtual Windows application for immersive viewing experience.",
+      "technologies": ["Logic Pro X", "Izotope RX", "Field Recording"],
+      "features": ["Virtual window simulation", "Immersive viewing/listening", "Regionally time synced"],
+      "liveUrl": "https://theliquidview.com",
+      "githubUrl": "#"
+    },
+    {
       "id": "nursery-dashboard",
       "title": "Nursery Dashboard",
       "description": "Internal web app built for Nursery supply company to track vendors and team members.",
