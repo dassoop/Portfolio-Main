@@ -75,7 +75,7 @@
       "title": "Liquid View Virtual Windows",
       "description": "Virtual Windows application for immersive viewing experience.",
       "category": "sound",
-      "highlight": false,
+      "highlight": true,
       "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fliquid-view%2Fliquid-view.png",
       "images": [
         "https://bucket.us-sea-1.linodeobjects.com/img%2Fliquid-view%2Fliquid-view.png"
@@ -221,7 +221,7 @@
       "title": "Deathwalk",
       "description": "Original orchestral soundtrack composition.",
       "category": "music",
-      "highlight": false,
+      "highlight": true,
       "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fdeathwalk%2Fdeathwalk.jpg",
       "images": [
         "https://bucket.us-sea-1.linodeobjects.com/img%2Fdeathwalk%2Fdeathwalk.jpg"],
@@ -755,6 +755,38 @@
       "technologies": ["Unreal Blueprints", "Fmod"],
       "features": ["RTS/MMO gameplay", "WW2 factions", "Sound design with Fmod"],
       "liveUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "id": "io-modern-metal",
+      "title": "IO",
+      "description": "Modern metal project featuring heavy riffs and atmospheric elements.",
+      "category": "spotify",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Fio%2Fio.png",
+      "images": ["https://bucket.us-sea-1.linodeobjects.com/img%2Fio%2Fio.png"],
+      "videoUrls": [],
+      "audioUrl": null,
+      "fullDescription": "Modern metal project featuring heavy riffs and atmospheric elements. Available on Spotify.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Alt tune", "Atmospheric elements", "Modern production"],
+      "liveUrl": "https://open.spotify.com/artist/6F8JCZcIdZeUZ1j6DG4pTt?si=BEaaCuHzQYiBG98822hMww",
+      "githubUrl": "#"
+    },
+    {
+      "id": "lvdite-ambient",
+      "title": "lvdite",
+      "description": "Ambient soundscapes for relaxation and meditation.",
+      "category": "spotify",
+      "highlight": false,
+      "image": "https://bucket.us-sea-1.linodeobjects.com/img%2Flvdite%2Flvdite.png",
+      "images": ["https://bucket.us-sea-1.linodeobjects.com/img%2Flvdite%2Flvdite.png"],
+      "videoUrls": [],
+      "audioUrl": null,
+      "fullDescription": "Ambient soundscapes designed for relaxation and meditation. Available on Spotify.",
+      "technologies": ["Logic Pro X"],
+      "features": ["Relaxing ambient", "Atmospheric soundscapes"],
+      "liveUrl": "https://open.spotify.com/artist/5M2uqKaYLI1po4QvpQ3DUr?si=uwkDxqmGQgmfuQero1Jdow",
       "githubUrl": "#"
     }
   ]
