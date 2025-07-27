@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Test</title>
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border: 2px solid #333;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 10px;
+            background: #333;
+            border-radius: 5px;
+        }
+        .error {
+            background: #ff4444;
+            color: white;
+        }
+        .success {
+            background: #44ff44;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <h1>Video Test</h1>
+        <div id="status" class="status">Loading video...</div>
+        <video id="testVideo" controls autoplay muted loop playsinline>
+            <source src="https://bucket.us-sea-1.linodeobjects.com/portfolio%2Fvideo%2Fheader.mov" type="video/quicktime">
+            <source src="https://bucket.us-sea-1.linodeobjects.com/portfolio%2Fvideo%2Fheader.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script>
+        const video = document.getElementById('testVideo');
+        const status = document.getElementById('status');
+
+        video.addEventListener('loadstart', () => {
+            status.textContent = 'Video loading started...';
+            status.className = 'status';
+        });
+
+        video.addEventListener('loadeddata', () => {
+            status.textContent = 'Video loaded successfully!';
+            status.className = 'status success';
+        });
+
+        video.addEventListener('error', (e) => {
+            status.textContent = 'Error loading video: ' + (video.error ? video.error.message : 'Unknown error');
+            status.className = 'status error';
+            console.error('Video error:', video.error);
+        });
+
+        video.addEventListener('canplay', () => {
+            status.textContent = 'Video can play!';
+            status.className = 'status success';
+        });
+    </script>
+</body>
+</html> 
